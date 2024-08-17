@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("../images/wallpaper.jpg");
+    height: 100%;
+}
+header h1{
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.424);
+}
+nav img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    border-radius: 30%;
+    margin: 0px;
+    margin-top: 10px;
+    margin: 3px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.MyTo-Do{
+    margin-top: 30px;
+    margin-right: 80px;
+    border: 1px solid black;
+    border-radius: 30px;
+    box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.457);
+    height: 500px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.359);
+    backdrop-filter: blur(10px);
+}
+.text1-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+}
+.text1-container h1{
+    text-align: center;
+    padding: 15px;
+}
+.text1-container button{
+    cursor: pointer;
+    margin-right: 5px;
+}
+.Config{
+    margin-top: 30px;
+    margin-left: 80px;
+    border: 1px solid black;
+    height: 500px;
+    width: 400px;
+}
+.text2-container h1{
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid black;
+}
+.Config-Items{
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.Config-Items #text{
+    height: 35px;
+    width: 96%;
+    border-radius: 30px;
+    border: 2px solid rgba(0, 0, 0, 0.641);
+    padding-left: 5px;
+    font-size: 20px;
+}
+.Config-Items #check-descricao{
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.Config-Items #descricao{
+    margin-top: 30px;
+    height: 25px;
+    width: 90%;
+    font-size: 15px;
+    padding-left: 5px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+}
