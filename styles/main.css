@@ -58,9 +58,11 @@ main{
     margin-right: 5px;
 }
 .Config{
+    background-color: rgba(255, 255, 255, 0.297);
     margin-top: 30px;
     margin-left: 80px;
-    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.472);
     height: 500px;
     width: 400px;
 }
@@ -73,7 +75,7 @@ main{
     margin-top: 30px;
     padding-left: 10px;
 }
-.Config-Items #text{
+.Config-Items #nome{
     height: 35px;
     width: 96%;
     border-radius: 30px;
@@ -94,4 +96,39 @@ main{
     padding-left: 5px;
     border-radius: 30px;
     border: 1px solid rgba(0, 0, 0, 0.53);
+}
+.Config-Items #date{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 190px;
+    height: 30px;
+    font-size: 20px;
+}
+.Config-Items #time{
+    margin-top: 20px;
+    padding-left: 10px;
+    width: 120px;
+    height: 20px;
+    font-size: 15px;
+}
+.addConfig{
+    margin-top: 140px;
+}
+.addConfig .addButton{
+    margin-left: 9px;
+    height: 40px;
+    width: 96%;
+    background-color: rgba(0, 0, 0, 0.625);
+    border-radius: 20px;
+    border: 2px solid rgb(71, 71, 71);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 25px;
+}
+.addConfig .addButton:hover{
+    background-color: rgba(59, 59, 59, 0.739);
+    border: 2px solid black;
+}
+.addConfig .addButton:active{
+    background-color: rgba(0, 0, 0, 0.739);
 }

@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="styles/main.css">
     <title>Lista de Tarefas Online</title>
 </head>
-<body>
+<body onl>
     <header>
         <nav>
            <a href="https://www.instagram.com/03thiagoh?igsh=Ymd5OW1sY2wxZTlo" target="_blank"><img src="images/instagram.jpeg" alt="Instagram Icon"></a>
@@ -24,8 +24,6 @@
             </div>
             <div class="items">
                 <div class="checkbox-container">
-                    <p>a</p>
-                    <input type="checkbox" name="" id="">
                 </div>
                 
             </div>
@@ -36,17 +34,25 @@
             </div>
             <div class="Config-Items">
                 <label>
-                    <input type="text" name="text" id="text" maxlength="30" placeholder="Nome da tarefa:">
+                    <input type="text" name="text" id="nome" maxlength="30" autocomplete="off" placeholder="Nome da tarefa:">
                 </label>
                 <label>
                     <input type="checkbox" name="check-descricao" id="check-descricao">
-                    <input type="text" name="descricao" id="descricao" maxlength="40" placeholder="Descrição:">
+                    <input type="text" name="descricao" id="descricao" maxlength="40" autocomplete="off" placeholder="Descrição:">
                 </label>
                 <label>
-                    <input type="date" name="" id="">
+                    <input type="date" name="date" id="date">
                 </label>
+                <br>
+                <label>
+                    <input type="time" name="time" id="time">
+                </label>
+            </div>
+            <div class="addConfig">
+                <button class="addButton" onclick="verificar()">Adicionar</button>
             </div>
         </div>
     </main>
+    <script src="script/main.js"></script>
 </body>
 </html>
